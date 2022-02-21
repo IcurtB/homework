@@ -4,7 +4,7 @@
  num = num + 1;
  num = num + 1;
  num = num - 1;
- console.log(num);**/
+ ;**/
 let num = 10;
 let num1 = 10;
 // num = num + 1;
@@ -52,3 +52,11 @@ console.log('number*=10: '+number)
 // num = num / 15;
 number/=15;
 console.log('number/=15: '+number)
+
+
+//
+let pre = 10;
+pre1 = pre++
+// pre1 = pre = pre + 1
+ console.log(pre)
+
