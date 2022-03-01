@@ -43,6 +43,6 @@ console.log(arr);
 let ourArr = [1, 2, 115, 4, 58, 5, 7, 99];
 for (let i of ourArr) {
     if (i === 4) {
-        console.log('ЕСТЬ!!!')
+        alert('ЕСТЬ!!!')
     }
 }
