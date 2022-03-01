@@ -41,13 +41,15 @@ console.log(getName("Василий"));
 
 function example(arr) {
     for (let i = 0; i < arr.length; i++) {
-        if(true){
-            arr[i] += arr[i]
+        if(1 < 10){
+            arr[i] = arr[i] + arr[i]
         }
     }
     return arr
 }
 
 console.log(example([1, 2, 3]));
-console.log(example([4, 1, 1, 1,1, 4]));
+console.log(example([4, 1, 1, 1, 1, 4]));
 console.log(example([2, 2, 2, 2, 2, 2]));
+
+
