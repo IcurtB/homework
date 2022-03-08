@@ -1,0 +1,41 @@
+/*.notification {*/
+/*    position: fixed;*/
+/*    z-index: 1001;*/
+/*    left: -400px;*/
+/*    bottom: 20px;*/
+/*    opacity: 0;*/
+/*    width: 300px;*/
+/*    height: 135px;*/
+/*    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.4);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    transition: all 0.5s ease;*/
+/*    display: flex;*/
+
+/*}*/
+/*.notification.go {*/
+/*    left: 20px;*/
+/*    opacity: 1;*/
+/*}*/
+
+.alert{
+    position: fixed;
+    z-index: 1001;
+    right: -400px;
+    top: 20px;
+    opacity: 0;
+    width: 300px;
+    height: 135px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.alert.go{
+    right: 20px;
+    opacity: 1;
+    background: mediumvioletred;
+}
