@@ -1,13 +1,15 @@
-const alertElem = document.querySelector('.alert');
+let alertBtn = document.querySelector('#alert');
+let push = document.querySelector('.push_alert')
 
-const alert = {
-    open: () => alertElem.classList.add('go'),
-    close: () => alertElem.classList.remove('go')
+let alert = {
+    open: () => push.classList.add('go'),
+    close: () => push.classList.remove('go')
 }
 
-setTimeout(() => {
+
+alertBtn.onclick = () => {
     alert.open()
     setTimeout(() => {
         alert.close()
     }, 1500)
-},2000)
+}
