@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btnBlock{
+    width: 700px;
+    margin: 40px 40px;
+}
+.btn{
+    width: 135px;
+    height: 44px;
+    background-color: cadetblue;
+    border: none;
+    box-shadow: 0 2px 4px gray;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+#btnResult{
+    margin-top: 22px;
+    width: 413px;
+    height: 44px;
+    background-color: cadetblue;
+    box-shadow: 0 0 6px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+}
