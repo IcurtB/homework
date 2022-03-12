@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#blackBox{
+    padding: 40px;
+    background-color: black;
+}
+
+#whiteBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 664px;
+    padding: 40px 24px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+#blackBox>#whiteBox>form>h3{
+    font-family: 'Sora', sans-serif;
+}
+
+#blackBox>#whiteBox>form input{
+    height: 48px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #AEAEAE;
+    margin: 4px 0;
+    padding: 8px;
+}
+
+.button{
+    width: 384px!important;
+    border-radius: 8px;
+    border: none;
+    background-color: #232529;
+    color: white;
+    margin: 0 auto!important;
+
+}
+
+#whiteBox>form>.pasBox>.long{
+    width: 404px!important;
+}
+
+.longLine{
+    width: 608px!important;
+}
+.half{
+    width: 302px !important;
+}

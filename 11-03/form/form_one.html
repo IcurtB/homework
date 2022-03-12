@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div id="blackBox">
+    <div id="whiteBox">
+        <form id="formOne">
+            <h3>Анкета для корпоротивных клиентов</h3>
+            <p>Личные данные</p>
+            <div class="nameBox">
+                <input id="secondName" type="text" placeholder="Фамилия">
+                <input id="name" type="text" placeholder="Имя">
+                <input id="middleName" type="text" placeholder="Отчество">
+            </div>
+            <p>Паспортные данные</p>
+            <div class="pasBox">
+                <input id="birth" type="date" >
+                <input id="livePlace" class="long" type="text" placeholder="Место проживания по прописке">
+                <br>
+                <input id="serialNumber" type="text" placeholder="Серийный номер AN/ID">
+                <input id="inn" type="text" placeholder="ИНН">
+                <input id="date" type="date" placeholder="Дата получения">
+                <br>
+                <input id="contactNumber" type="text" placeholder="Контактный номер">
+                <input id="electroAdres" type="text" placeholder="Электронный адрес">
+                <input id="bankName" type="text" placeholder="Наименование банка">
+                <br>
+                <input id="fact" class="long" type="text" placeholder="Фактическое место проживания">
+            </div>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+</div>
+
+<script src="./formOne.js"></script>
+</body>
+</html>
