@@ -3,11 +3,17 @@ let input = document.querySelectorAll('.val')
 const getValue = () => {
     for (let i of input) {
         if (i.value == '') {
-            i.style.backgroundColor = 'red';
-            i.placeholder = 'Это поле обязательно к заполнению ';
+            i.style.boxShadow = '0 0 5px 1px red'
+            i.placeholder = 'Это поле обязательно к заполнению'
+            i.style.backgroundColor = '#f8d0d0a1'
         } else {
             console.log(i.value)
         }
     }
 }
-btn.addEventListener('click', getValue)
+btn.addEventListener('click', getValue);
+for(let i of input){
+    i.addEventListener('focus', () => {
+        i.classList.toggle('change')
+    });
+}
