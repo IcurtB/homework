@@ -15,11 +15,20 @@ form1.onsubmit = (event) =>{
     let bank      = document.getElementById('bankName');
     let fact      = document.getElementById('fact');
 
-    let massive = [
-        second, name, middle, birth,
-        livePlace, inn, date, contNum,
-        eloAdd, bank, fact];
-    for (let i = 0; i < massive.length; i++) {
-        console.log(massive[i].values)
+    let object    = {
+        secondName: second.value,
+        name      : name.value,
+        middleName: middle.value,
+        birthDate : birth.value,
+        livePlace : livePlace.value,
+
     }
+    // let massive = [
+    //     second, name, middle, birth,
+    //     livePlace, inn, date, contNum,
+    //     eloAdd, bank, fact];
+    // for (let i = 0; i < massive.length; i++) {
+    //     console.log(massive[i].values)
+    // }
+    console.log(object)
 }
