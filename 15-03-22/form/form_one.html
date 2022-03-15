@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div id="blackBox">
+    <div id="whiteBox">
+        <form id="formOne" action="javascript: void(0)">
+            <h3>Анкета для корпоротивных клиентов</h3>
+            <p>Личные данные</p>
+            <div class="nameBox">
+                <input required='required' class="val" id="secondName" type="text" placeholder="Фамилия">
+                <input required='required' class="val" id="name" type="text" placeholder="Имя">
+                <input required='required' id="middleName" type="text" placeholder="Отчество">
+            </div>
+            <p>Паспортные данные</p>
+            <div class="pasBox">
+                <input required='required' id="birth" type="date" >
+                <input required='required' id="livePlace" class="long" type="text" placeholder="Место проживания по прописке">
+                <br>
+                <input required='required' class="val" id="serialNumber" type="text" placeholder="Серийный номер AN/ID">
+                <input required='required' class="val" id="inn" type="text" placeholder="ИНН">
+                <input required='required' class="val" id="date" type="date" placeholder="Дата получения">
+                <br>
+                <input required='required' id="contactNumber" type="text" placeholder="Контактный номер">
+                <input required='required' id="electroAdres" type="text" placeholder="Электронный адрес">
+                <input required='required' id="bankName" type="text" placeholder="Наименование банка">
+                <br>
+                <input required='required' id="fact" class="long" type="text" placeholder="Фактическое место проживания">
+            </div>
+            <button id="btn" type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>

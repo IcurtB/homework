@@ -30,5 +30,5 @@ form1.onsubmit = (event) =>{
     // for (let i = 0; i < massive.length; i++) {
     //     console.log(massive[i].values)
     // }
-    console.log(object)
+    console.log(typeof object.name)
 }
