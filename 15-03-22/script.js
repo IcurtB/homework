@@ -47,11 +47,16 @@ const getFromFormOne = () => {
             mapDot: mapDot.value,
         }
         localStorage.setItem('objTwo', JSON.stringify(objTwo))
-        window.addEventListener('storage', event => {
-            console.log(event)
-        })
+        // window.addEventListener('storage', event => {
+        //     console.log(event)
+        // })
         let getObjTwo = localStorage.getItem('objTwo')
-        console.log(getObjTwo)
+        let allFromLocalStorage = Object.keys(localStorage)
+
+        for (let i of allFromLocalStorage) {
+            let toParse = localStorage.getItem(i)
+            console.log(JSON.parse(toParse))
+        }
     }
 
 }
